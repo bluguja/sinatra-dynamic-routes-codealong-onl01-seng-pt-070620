@@ -19,3 +19,8 @@ get '/goodbye/:name' do
   @user_name = params[:name]
     "Goodbye #{@user_name}!"
 end
+
+get '/multiply/:name' do
+  @user_name = params[:name]
+    "Multiply #{@user_name}!"
+end
